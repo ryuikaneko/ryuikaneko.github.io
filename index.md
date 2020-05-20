@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# ryuikaneko.github.io
+# my all repositories
 
 - https://github.com/ryuikaneko/bond_operator_approach.git
 - https://github.com/ryuikaneko/classical_monte_carlo.git
@@ -19,6 +19,7 @@ layout: default
 - https://github.com/ryuikaneko/mvmc_noninteracting.git
 - https://github.com/ryuikaneko/mvmc_spin_jastrow.git
 - https://github.com/ryuikaneko/mvmc_spin_liquid.git
+- https://github.com/ryuikaneko/ryuikaneko.github.io.git
 - https://github.com/ryuikaneko/spin_wave_approximation.git
 - https://github.com/ryuikaneko/ssd_dmrg_by_itensor.git
 - https://github.com/ryuikaneko/template_gnuplot.git

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# my all repositories
+# my repositories
 
 - https://github.com/ryuikaneko/bond_operator_approach.git
 - https://github.com/ryuikaneko/classical_monte_carlo.git

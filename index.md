@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # ryuikaneko.github.io
 
 - https://github.com/ryuikaneko/bond_operator_approach.git

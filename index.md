@@ -25,4 +25,5 @@ layout: default
 - [template_gnuplot](https://github.com/ryuikaneko/template_gnuplot)
 - [template_latex](https://github.com/ryuikaneko/template_latex)
 - [template_povray](https://github.com/ryuikaneko/template_povray)
+- [tenes_example](https://github.com/ryuikaneko/tenes_example)
 - [tight_binding_shell_condition](https://github.com/ryuikaneko/tight_binding_shell_condition)

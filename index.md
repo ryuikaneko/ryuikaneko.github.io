@@ -19,6 +19,7 @@ layout: default
 - [mvmc_noninteracting](https://github.com/ryuikaneko/mvmc_noninteracting)
 - [mvmc_spin_jastrow](https://github.com/ryuikaneko/mvmc_spin_jastrow)
 - [mvmc_spin_liquid](https://github.com/ryuikaneko/mvmc_spin_liquid)
+- [quspin_example](https://github.com/ryuikaneko/quspin_example)
 - [ryuikaneko.github.io](https://github.com/ryuikaneko/ryuikaneko.github.io)
 - [spin_wave_approximation](https://github.com/ryuikaneko/spin_wave_approximation)
 - [ssd_dmrg_by_itensor](https://github.com/ryuikaneko/ssd_dmrg_by_itensor)

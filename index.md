@@ -4,6 +4,7 @@ layout: default
 
 # my repositories
 
+- [bayesian_optimization_brachistochrone](https://github.com/ryuikaneko/bayesian_optimization_brachistochrone)
 - [bond_operator_approach](https://github.com/ryuikaneko/bond_operator_approach)
 - [classical_monte_carlo](https://github.com/ryuikaneko/classical_monte_carlo)
 - [codes_for_my_publications](https://github.com/ryuikaneko/codes_for_my_publications)

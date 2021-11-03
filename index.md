@@ -18,6 +18,7 @@ layout: default
 - [gutzwiller_approx_bose_hubbard](https://github.com/ryuikaneko/gutzwiller_approx_bose_hubbard)
 - [hartree_fock_approximation](https://github.com/ryuikaneko/hartree_fock_approximation)
 - [itps_contraction](https://github.com/ryuikaneko/itps_contraction)
+- [lindblad_free_fermion](https://github.com/ryuikaneko/lindblad_free_fermion)
 - [mvmc_hartree_fock](https://github.com/ryuikaneko/mvmc_hartree_fock)
 - [mvmc_noninteracting](https://github.com/ryuikaneko/mvmc_noninteracting)
 - [mvmc_spin_jastrow](https://github.com/ryuikaneko/mvmc_spin_jastrow)

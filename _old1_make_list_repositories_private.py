@@ -3,21 +3,32 @@
 from __future__ import print_function
 import requests
 
-## https://stackoverflow.com/questions/68200480/github-api-get-private-repositories-of-user
+## public
+
+username = 'ryuikaneko'
+request = requests.get('https://api.github.com/users/'+username+'/repos?per_page=1000')
+json_items = request.json()
+
+json_list = []
+for i in range(len(json_items)):
+    json_list.append((json_items[i]['name'],json_items[i]['svn_url']))
+#print(json_list)
+
+## private
+##  some of the files (more than 384 KB) may be missing
+##  see https://stackoverflow.com/questions/73823145/github-api-search-code-missing-items-in-json
 
 token = '' ## added by hand
 username = 'ryuikaneko'
 headers = {'Authorization': 'token {}'.format(token)}
-npage = 2 ## assume (#repositories)<=200
-json_list = []
-for page in range(1,npage+1):
-    request = requests.get('https://api.github.com/user/repos?per_page=100&page='+'{}'.format(page)+'&visibility=all',headers=headers)
-    json_items = request.json()
-    #print(json_items)
-    for i in range(len(json_items)):
-#        json_list.append((json_items[i]['name'],json_items[i]['svn_url']))
-        if json_items[i]['owner']['login'] == username:
-            json_list.append((json_items[i]['name'],json_items[i]['svn_url']))
+request = requests.get('https://api.github.com/search/repositories?q=user:'+username+'&per_page=1000',headers=headers)
+json_full = request.json()
+json_items = json_full['items']
+#print(json_items)
+
+#json_list = []
+for i in range(len(json_items)):
+    json_list.append((json_items[i]['name'],json_items[i]['svn_url']))
 #print(json_list)
 
 json_list = list(set(json_list)) ## unique
@@ -28,7 +39,7 @@ print("---")
 print("layout: default")
 print("---")
 print("")
-print("# my repositories (both public and private)")
+print("# my repositories")
 print("")
 for i in range(len(json_list)):
     print("- [{}]".format(json_list[i][0]),end="")

@@ -43,4 +43,5 @@ layout: default
 - [template_latex](https://github.com/ryuikaneko/template_latex)
 - [template_povray](https://github.com/ryuikaneko/template_povray)
 - [tenes_example](https://github.com/ryuikaneko/tenes_example)
+- [textbook_2024_machine_learning_physics](https://github.com/ryuikaneko/textbook_2024_machine_learning_physics)
 - [tight_binding_shell_condition](https://github.com/ryuikaneko/tight_binding_shell_condition)
